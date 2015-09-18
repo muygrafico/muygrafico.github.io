@@ -1,0 +1,24 @@
+<!doctype html>
+<html ng-app>
+<head>
+  <meta charset="UTF-8">
+  <script src="js/angular.min.js"></script>
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <div class="uber-banner">
+    <figure>
+      <img src="img/uber-logo.png" alt="logo uber">
+      <span>¿Tienes este código de UBER? ¡ven y conoceneme!</span>
+      <img class="kaizen" src="img/kaizendevs-logo.png" alt="logo kaizen devs">
+    </figure>
+  </div>
+  <div>
+    <input type="text" ng-model="yourCode" ng-init="yourCode='VA1LM'" placeholder="Ingresa tu código Uber aquí">
+    <hr>
+
+  </div>
+
+  <h1>{{yourCode}}</h1>
+</body>
+</html>
