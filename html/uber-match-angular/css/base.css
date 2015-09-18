@@ -8,23 +8,45 @@
     height: 100%;
     width: 100%;
     font-family: 'Helvetica Neue', Arial;
-    background: #FAFF00;
+    background: #FAFF00 !important;
     color: #191919;
   }
 
   h1{
     line-height: 100%;
     height: 100%;
-    font-size: 26em;
+
     text-align: center;
     margin-top: 0.15em;
   }
-  div{
-    /*width: max-width:200px;*/
-    width: 350px;
-    padding: 0 50px;
-    margin: 0 auto;
+  @media (max-width: 400px) {
+    h1 {font-size: 8em !important;}
   }
+  @media all and (min-width: 401px) and (max-width:480px) {
+    h1 {font-size: 9em !important;}
+  }
+  @media all and (min-width: 481px) and (max-width:768px) {
+    h1 {font-size: 11em !important;}
+  }
+  @media all and (min-width: 769px) {
+    h1 {font-size: 15em !important;}
+  }
+  @media all and (min-width: 1024px) {
+    h1 {font-size: 20em !important;}
+  }
+  .ingresa-codigo{
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    padding: 0;
+
+
+  }
+  /*@media all and (min-width: 600px) and (max-width:799px)*/
+  /*@media (max-width: 480px) {*/
+    /*h1 {font-size: 10em !important;}*/
+  /*}*/
+
   input {
     padding: 20px;
     font-size: 18px;
@@ -34,29 +56,48 @@
   }
   div.uber-banner{
     background: #1d1d1d;
-    height: 200px;
     width: 100%;
   }
+  .black-bar{
+    background: RGB(29, 29, 29);
+  }
+  p{
+    color: white;
+    padding: 20px 0 0 25px;
+    display: inline-block;
+    font-size: 24px;
+  }
+  /*
   div.uber-banner figure{
     margin:0 auto;
   }
-  div.uber-banner figure img{
-    height: 200px;
+  div.uber-banner img{
+    height: 100px;
     display: inline-block;
 
-}
-div.uber-banner figure span{
-    display: inline-block;
+  }
+
+  @media and screen (min-width: 920px){
+    div.uber-banner img{
+      margin:50px;
+    }
+  }
+
+  @media and screen (max-width: 919px){
+    div.img-center{
+      margin:0 auto;
+    }
+    p{font-size: 24px;}
+  }
+
+  div.uber-banner  p{
+
+    text-align: center;
     color: white;
-    vertical-align: center;
-    position: absolute;
-    font-size: 36px;
-    margin-top: 70px;
-    font-family: 'Roboto', Arial;
-    font-weight: lighter;
-    letter-spacing: 0.5px;
-    margin-left: 70px;
-}
-div.uber-banner figure .kaizen{
-  float: right;
-}
+    padding: 40px;
+    font-size: 28px;
+  }
+  div.uber-banner figure .kaizen{
+    float: right;
+  }
+*/

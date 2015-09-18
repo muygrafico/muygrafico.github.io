@@ -3,22 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <script src="js/angular.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 <body>
-  <div class="uber-banner">
-    <figure>
-      <img src="img/uber-logo.png" alt="logo uber">
-      <span>¿Tienes este código de UBER? ¡ven y conoceneme!</span>
-      <img class="kaizen" src="img/kaizendevs-logo.png" alt="logo kaizen devs">
-    </figure>
+  <div class="black-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-2">
+          <div class="text-center">
+            <img src="img/uber-logo.png" alt="logo uber">
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-8">
+          <div class="text-center">
+            <p>¿Tienes este código de UBER? ¡ven y conoceneme!</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-2">
+          <div class="text-center">
+          <a href="_blank" href="http://www.kaizendevs.com"><img src="img/kaizendevs-logo.png" alt="logo kaizen devs"></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div>
-    <input type="text" ng-model="yourCode" ng-init="yourCode='VA1LM'" placeholder="Ingresa tu código Uber aquí">
-    <hr>
-
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-4">
+      <p class="ingresa-codigo">Ingresa tu código:</p>
+        <input type="text" id="code-input" ng-model="yourCode" ng-init="yourCode='VA1LM'" placeholder="Ingresa tu código Uber aquí">
+      </div>
+    </div>
   </div>
-
   <h1>{{yourCode}}</h1>
 </body>
 </html>
