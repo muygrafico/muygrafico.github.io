@@ -1,0 +1,63 @@
+.debbuger {
+	display: none;
+}
+#logo {
+	margin: 65px 100px 65px 80px;
+
+}
+#menu{
+	position: relative;
+	z-index: 100;
+	margin-left: 85px;
+}
+
+#menu ul{
+width: 135px;
+}
+
+#menu ul li {
+	font-family: 'isocpeurregular', sans-serif;
+	text-align: right;
+	width: 135px;
+	line-height: 45px;
+	/*border-bottom: 1px dotted #f1f4e0;*/
+}
+#menu ul li.last {
+
+	border-bottom: none;
+}
+#menu ul li a{
+	font-size:12px;
+	
+	color: #858585;
+	letter-spacing: 2px;
+}
+#content {
+	z-index: 0;
+
+	/*left:80px;*/
+	/*left: 320px;*/
+	/*top: 175px;		*/
+	margin-left: 70px;	
+	margin-top: -370px;
+	position: relative;
+	width: 850px;
+	height: 450px;
+	background:url('../img/bg_line.png') repeat-x ;
+	/*border:1px solid #d5d5d5;*/
+	/*margin-top: 270px;*/
+	/*margin-left: 30px;*/
+}
+
+
+/* Sections */
+
+#inicio {
+
+}
+#inicio img {
+	float: right;
+}
+.sections {
+	display:none;
+}

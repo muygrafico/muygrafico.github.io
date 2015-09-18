@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'isocpeurregular';
+    src: url('../fonts/isocpeur1-webfont.eot');
+    src: url('../fonts/isocpeur1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/isocpeur1-webfont.woff') format('woff'),
+         url('../fonts/isocpeur1-webfont.ttf') format('truetype'),
+         url('../fonts/isocpeur1-webfont.svg#isocpeurregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
